@@ -246,88 +246,6 @@ p {
 }
 /* End Home Section */
 
-/* Services Section */
-#services .services {
-	flex-direction: column;
-	text-align: center;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 100px 0;
-}
-#services .service-top {
-	max-width: 500px;
-	margin: 0 auto;
-}
-#services .service-bottom {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-	margin-top: 50px;
-}
-
-#services .service-item {
-	width: 400px;
-	height: 380px;
-	display: flex;
-	align-items: flex-start;
-	justify-content: center;
-	flex-direction: column;
-	padding: 30px;
-	border-radius: 10px;
-	margin: 10px 5%;
-	overflow: hidden;
-	background: #485563;
-}
-
-#services .service-bottom .icon {
-	height: 80px;
-	width: 80px;
-	margin-bottom: 20px;
-}
-#services .service-item h2 {
-	font-size: 2rem;
-	color: white;
-	margin-bottom: 10px;
-	text-transform: uppercase;
-}
-
-#services .service-item ul {
-	text-align: left;
-	max-width: 250px;
-}
-
-#services .service-item ul li {
-	font-size: 1.2rem;
-	color: white;
-	margin-bottom: 10px;
-	line-height: 1.5;
-	position: relative;
-	padding-left: 25px;
-}
-
-.service-item ul li::before {
-    content: "•";
-    color: white;
-    font-size: 2.5rem;
-    position: absolute;
-    left: 0;
-	bottom: 0;
-}
-
-.service-item .btn {
-    display: inline-block;
-    font-size: 1em;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-	margin-top: 15px;
-    transition: background-color 0.3s ease;
-}
-/* End Services Section */
-
 /* Projects section */
 #projects .projects {
 	flex-direction: column;
@@ -401,6 +319,7 @@ p {
 }
 /* End Projects section */
 
+
 /* About Section */
 #about .about {
 	text-align: center;
@@ -419,14 +338,8 @@ p {
 	margin-bottom: 10px;
 }
 #about .about-col p {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	text-align: left;
-}
-#about .about-col .cta {
-	color: black;
-	margin-bottom: 50px;
-	padding: 10px 20px;
-	font-size: 2rem;
 }
 /* End About Section */
 
@@ -526,13 +439,6 @@ p {
 	}
 	/* End Hero */
 
-	/* Services Section */
-	#services .service-bottom .service-item {
-		flex-basis: 45%;
-		margin: 2.5%;
-	}
-	/* End Services Section */
-
 	/* Project */
 	#projects .project-item {
 		flex-direction: row;
@@ -613,11 +519,6 @@ p {
 		display: none;
 	}
 	/* End header */
-
-	#services .service-bottom .service-item {
-		flex-basis: 22%;
-		margin: 1.5%;
-	}
 
 	/* Contact */
 	#contact .contact-item {
